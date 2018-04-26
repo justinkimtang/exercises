@@ -1,0 +1,49 @@
+**************************************************************
+---Implemntation of sorting algorithms for an integer array---
+**************************************************************
+
+Algorithms implemented:
+    Bubble
+        Cocktail
+            Comb
+                Counting
+                    Heap
+                        Insertion
+                            Merge
+                                Quick
+                                    Selection
+
+Test.java:
+    Note: All algoritms to be tested must have a method sort(int[])
+    Will run test on each algorithm listed and print out which algorithms
+    passed and which ones failed. For failed test the first failed sort will
+    also be printed. Custom test cases can also be added to customTest.txt.
+
+    -Methods-
+    List<int[]> getTestArrays()
+        Returns an list of all test cases. Custom test can be added here
+        or in customTest.txt.
+    List<Class> getSortingMethods()
+        Returns a list of the sorting algorithms to be tested. To add more
+        algortims just add the class to be tested to sortingList.
+
+customTest.txt
+    File that further test can be added to. Format is as follows:
+        -----------------------------------------
+        Number of test cases
+        Size of array1
+        array1 contents seperated by a space
+        Size of array2
+        Contents of array2
+        ... 
+
+        ex.
+            3
+            2
+            1 5
+            5
+            8 9 6 3 4
+            1
+            5
+        ---------------------------------------
+
